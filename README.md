@@ -208,6 +208,25 @@ Distribuido bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para m�
 
 ## 🙏 Agradecimientos
 
+<p align="center">
+  <br/>
+  <em>
+    "Porque Dios es el que en vosotros produce<br/>
+    así el querer como el hacer,<br/>
+    por su buena voluntad."
+  </em>
+  <br/>
+  <strong>— Filipenses 2:13</strong>
+  <br/><br/>
+  Todo lo que aquí existe nació primero como un deseo en el corazón.<br/>
+  Cada proyecto, cada línea, cada idea que toma forma —<br/>
+  es un regalo de Aquel que nos dio tanto el sueño como la fuerza de alcanzarlo.<br/>
+  <strong>A Dios, toda la gloria.</strong>
+  <br/>
+</p>
+
+---
+
 - [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) — por la curaduría de los mejores READMEs del mundo
 - [Shields.io](https://shields.io) — por los badges dinámicos
 - [Anthropic / Claude](https://anthropic.com) — por el motor de IA
