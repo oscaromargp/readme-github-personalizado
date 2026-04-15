@@ -1,139 +1,215 @@
-# readme-github-personalizado
+<p align="center">
+  <img src="assets/banner.png" alt="readme-github-personalizado" width="100%"/>
+</p>
 
-Skill para Claude, Antigravity y NoCode que genera automáticamente un README profesional y completo para cualquier repositorio de GitHub, con la plantilla personalizada de Oscar Omar Gómez Peña.
+<h1 align="center">readme-github-personalizado</h1>
 
-## Tabla de Contenidos
+<p align="center">
+  <strong>Skill para Claude, Antigravity y NoCode que genera READMEs profesionales y visualmente atractivos para GitHub — con badges, capturas de pantalla, GIFs y plantilla personalizada.</strong>
+</p>
 
-- [Acerca del Proyecto](#acerca-del-proyecto)
-- [Comenzando](#comenzando)
-  - [Prerrequisitos](#prerrequisitos)
-  - [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuyendo](#contribuyendo)
-- [Apoya este Proyecto](#apoya-este-proyecto)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
-- [Agradecimientos](#agradecimientos)
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/version-2.0.0-green?style=for-the-badge" alt="Version"/>
+  <img src="https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-orange?style=for-the-badge" alt="PRs Welcome"/>
+  <img src="https://img.shields.io/badge/compatible-Claude%20%7C%20Antigravity%20%7C%20NoCode-blueviolet?style=for-the-badge" alt="Compatible"/>
+</p>
 
-## Acerca del Proyecto
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-uso">Uso</a> •
+  <a href="#-apoya-este-proyecto">Donar</a> •
+  <a href="#-contacto">Contacto</a>
+</p>
 
-Este repositorio contiene el skill `readme-github-personalizado`, una instrucción estructurada para agentes de IA (Claude, Antigravity, NoCode) que genera READMEs de calidad profesional de forma automática.
+---
 
-El skill resuelve el problema habitual de llegar a GitHub con un repositorio vacío de documentación o con un README genérico. Basta con invocar el skill y proporcionar los datos básicos del proyecto; el agente produce un archivo `README.md` completo, con todas las secciones estándar, ejemplos de código, información de contacto y dirección de donación XRP.
+## 📖 Acerca del Proyecto
 
-### Construido Con
+<p align="center">
+  <img src="https://via.placeholder.com/700x380?text=README+generado+con+badges+%2B+screenshots+%2B+GIF+demo" alt="Demo del skill" width="700"/>
+</p>
 
-- [Claude Code](https://claude.ai/code) — Motor de IA para ejecutar el skill
-- [Antigravity](https://antigravity.ai) — Plataforma de automatización compatible
-- [NoCode](https://nocode.com) — Flujos visuales donde el skill actúa como nodo de documentación
-- Markdown — Formato de salida universal para GitHub
+**readme-github-personalizado** es un skill listo para usar en Claude Code, Antigravity y NoCode que genera automáticamente un `README.md` de calidad profesional para cualquier proyecto.
 
-## Comenzando
+Inspirado en los patrones de [awesome-readme](https://github.com/matiassingers/awesome-readme), el skill produce documentación que incluye badges de color, banners visuales, demostraciones en GIF, tablas de características con íconos, bloques de código con syntax highlighting, y una sección de donación XRP — todo con los datos de contacto de Oscar Omar Gómez Peña ya integrados.
 
-### Prerrequisitos
+### 🛠️ Construido Con
 
-Necesitas **una** de las siguientes plataformas:
+<p align="left">
+  <img src="https://img.shields.io/badge/Claude-AI-5A67D8?style=for-the-badge&logo=anthropic" alt="Claude AI"/>
+  <img src="https://img.shields.io/badge/Antigravity-Compatible-FF6B35?style=for-the-badge" alt="Antigravity"/>
+  <img src="https://img.shields.io/badge/NoCode-Compatible-00D4AA?style=for-the-badge" alt="NoCode"/>
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown" alt="Markdown"/>
+  <img src="https://img.shields.io/badge/Shields.io-badges-green?style=for-the-badge" alt="Shields.io"/>
+</p>
 
-| Plataforma | Versión mínima |
-|------------|---------------|
-| Claude Code (CLI) | Cualquiera con soporte de skills |
-| Antigravity | Compatible con skills `.skill` |
-| NoCode | Nodo de agente Claude activo |
+---
 
-### Instalación
+## ✨ Características
 
-#### Opción A — Claude Code (CLI)
+| Característica | Descripción |
+|---|---|
+| 🎨 **Badges de color** | Genera badges personalizados con shields.io para version, licencia, estado, tecnologías |
+| 🖼️ **Banner + Screenshots** | Incluye secciones para banner de proyecto y capturas de pantalla con placeholders |
+| 🎬 **GIF Demo** | Instrucciones y herramientas para crear GIFs animados de demostración |
+| 🏗️ **Estructura de proyecto** | Árbol de directorios y sección de arquitectura para proyectos complejos |
+| 👥 **Sección de contribuidores** | Con avatares de GitHub enlazados automáticamente |
+| 💰 **Donación XRP integrada** | Badge y dirección XRP de Oscar Omar Gómez Peña precargados |
+| 🌐 **Multi-plataforma** | Compatible con Claude Code CLI, Antigravity y flujos NoCode |
+| 📋 **Plantilla completa** | Todas las secciones estándar listas para copiar y adaptar |
 
-1. Clona este repositorio
-   ```sh
-   git clone https://github.com/oscaromargp/readme-github-personalizado.git
-   ```
-2. Copia el archivo del skill a tu directorio de skills local
-   ```sh
-   cp readme-github-personalizado/SKILL.md ~/.claude/skills/readme-github-personalizado.md
-   ```
-3. El skill estará disponible en tu próxima sesión de Claude Code.
+---
 
-#### Opción B — Antigravity
+## 🎬 Demo
 
-1. Descarga `SKILL.md` de este repositorio.
-2. En tu proyecto de Antigravity, ve a **Skills → Importar skill**.
-3. Selecciona el archivo `SKILL.md` descargado.
-4. El skill aparecerá en tu biblioteca con el nombre `readme-github-personalizado`.
+<p align="center">
+  <img src="https://via.placeholder.com/700x400?text=GIF+Demo+→+Invocar+skill+→+README+generado+en+segundos" alt="Demo animado" width="700"/>
+</p>
 
-#### Opción C — NoCode
+**Flujo típico:**
+1. Usuario: *"Crea el README para mi proyecto de API en FastAPI"*
+2. El skill recopila: nombre, descripción, tecnologías, URL del repo
+3. Output: `README.md` completo con badges, screenshots placeholder, secciones y contacto
 
-1. En tu flujo NoCode, agrega un nodo de tipo **Agente Claude**.
-2. En el campo de instrucciones del nodo, copia y pega el contenido de `SKILL.md`.
-3. Conecta el nodo antes del paso de push a GitHub.
+---
 
-## Uso
+## 🚀 Instalación
 
-Una vez instalado, invoca el skill con cualquiera de estas frases:
+### Opción A — Claude Code (CLI)
+
+```sh
+git clone https://github.com/oscaromargp/readme-github-personalizado.git
+cp readme-github-personalizado/SKILL.md ~/.claude/skills/readme-github-personalizado.md
+```
+
+El skill estará disponible en tu próxima sesión de Claude Code.
+
+### Opción B — Antigravity
+
+1. Descarga `SKILL.md` de este repositorio
+2. En tu proyecto → **Skills → Importar skill**
+3. Selecciona el archivo `SKILL.md`
+
+### Opción C — NoCode
+
+1. Agrega un nodo de tipo **Agente Claude**
+2. Pega el contenido de `SKILL.md` en el campo de instrucciones
+3. Conéctalo antes del nodo de push a GitHub
+
+---
+
+## 💡 Uso
+
+Invoca el skill con cualquiera de estas frases:
 
 ```
 "Crea el README para mi proyecto"
 "Genera la documentación del repositorio"
+"Hazlo más bonito con badges"
 "Prepara el README antes de subir a GitHub"
-"Documenta este repo"
+"Documenta este repo con screenshots"
 ```
 
-El agente te pedirá:
-- Nombre del proyecto
-- Descripción breve
-- Tecnologías usadas
-- Pasos de instalación y uso
+### Ejemplo de output generado
 
-Y producirá el archivo `README.md` listo para commit.
-
-**Ejemplo de salida (fragmento):**
+<p align="center">
+  <img src="https://via.placeholder.com/680x200?text=Badges+→+Banner+→+Features+Table+→+Code+Block+→+XRP+Badge" alt="Secciones generadas" width="680"/>
+</p>
 
 ```markdown
-# MiProyecto
+# Mi API REST
 
-Aplicación web para gestionar tareas de equipo en tiempo real.
+<img src="https://img.shields.io/badge/version-1.0.0-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi"/>
 
-## Construido Con
-- [Next.js](https://nextjs.org/)
-- [Supabase](https://supabase.com/)
+## ✨ Características
+| ⚡ Rápido | Respuestas < 50ms con async/await |
+| 🔒 Seguro | JWT + OAuth2 integrado            |
 ...
 ```
 
-## Contribuyendo
+---
 
-¡Las contribuciones son bienvenidas! Si quieres mejorar la plantilla, agregar soporte para más secciones o traducirla a otro idioma:
+## 📁 Archivos de este repositorio
 
-1. Haz un fork del repositorio
-2. Crea tu rama (`git checkout -b feature/mejora-plantilla`)
-3. Haz commit de tus cambios (`git commit -m 'feat: agrega sección de screenshots'`)
-4. Push a la rama (`git push origin feature/mejora-plantilla`)
+```
+readme-github-personalizado/
+├── SKILL.md              # El skill — instrucciones para el agente IA
+├── README.md             # Este archivo (generado con el propio skill)
+├── LICENSE               # MIT License
+├── assets/
+│   ├── banner.png        # Banner del proyecto (agregar tu imagen)
+│   ├── screenshot.png    # Captura de pantalla de ejemplo
+│   └── IMAGES.md         # Guía de qué imágenes agregar y cómo
+└── samples/
+    ├── README-web-app.md     # README de ejemplo: aplicación web
+    ├── README-cli-tool.md    # README de ejemplo: herramienta CLI
+    └── README-nocode.md      # README de ejemplo: proyecto NoCode
+```
+
+---
+
+## 🤝 Contribuyendo
+
+¡Las contribuciones son bienvenidas! Si quieres mejorar la plantilla, añadir soporte para más tecnologías o traducirla:
+
+1. Haz un fork: `gh repo fork oscaromargp/readme-github-personalizado`
+2. Crea tu rama: `git checkout -b feature/mejora`
+3. Commit: `git commit -m 'feat: mejora sección de badges'`
+4. Push: `git push origin feature/mejora`
 5. Abre un Pull Request
 
-## Apoya este Proyecto
+---
 
-Si este skill te ha ahorrado tiempo o mejorado tus proyectos, considera hacer una contribución. Esto me ayuda a seguir creando y manteniendo herramientas de código abierto.
+## 💖 Apoya este Proyecto
 
-**Donaciones en Criptomonedas (Red XRP):**
+Si este skill te ha ahorrado tiempo o mejorado tus proyectos, considera hacer una contribución.
+
+<p align="center">
+  <strong>Donaciones en Criptomonedas — Red XRP</strong><br><br>
+  <img src="https://img.shields.io/badge/XRP-rBthUCndKy3Xbb19Ln4xkZeMwusX9NrYfj-00AAE4?style=for-the-badge&logo=ripple" alt="XRP Address"/>
+</p>
 
 > Dirección XRP: `rBthUCndKy3Xbb19Ln4xkZeMwusX9NrYfj`
 
-¡Muchas gracias por tu apoyo!
+---
 
-## Licencia
+## 📄 Licencia
 
 Distribuido bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-## Contacto
+---
 
-**Oscar Omar Gómez Peña**
+## 📬 Contacto
 
-- Portafolio Web: [oscaromargp.github.io/Oscaromargp/](https://oscaromargp.github.io/Oscaromargp/)
-- GitHub: [@oscaromargp](https://github.com/oscaromargp)
-- Enlace al proyecto: [https://github.com/oscaromargp/readme-github-personalizado](https://github.com/oscaromargp/readme-github-personalizado)
+<p align="center">
+  <strong>Oscar Omar Gómez Peña</strong>
+</p>
 
-## Agradecimientos
+<p align="center">
+  <a href="https://oscaromargp.github.io/Oscaromargp/">
+    <img src="https://img.shields.io/badge/Portafolio-Web-blueviolet?style=for-the-badge&logo=github" alt="Portafolio"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/oscaromargp">
+    <img src="https://img.shields.io/badge/GitHub-oscaromargp-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+</p>
 
-- [Anthropic / Claude](https://anthropic.com) — Por el motor de IA que ejecuta el skill
-- [Antigravity](https://antigravity.ai) — Por la plataforma de automatización
-- [Shields.io](https://shields.io) — Para futuras insignias en READMEs
-- Comunidad de código abierto de GitHub — Por la inspiración en buenas prácticas de documentación
+<p align="center">
+  <a href="https://github.com/oscaromargp/readme-github-personalizado">🔗 Ver este repositorio en GitHub</a>
+</p>
+
+---
+
+## 🙏 Agradecimientos
+
+- [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) — por la curaduría de los mejores READMEs del mundo
+- [Shields.io](https://shields.io) — por los badges dinámicos
+- [Anthropic / Claude](https://anthropic.com) — por el motor de IA
+- [Antigravity](https://antigravity.ai) — por la plataforma de automatización
+- [ScreenToGif](https://www.screentogif.com/) — herramienta recomendada para crear GIFs de demo
